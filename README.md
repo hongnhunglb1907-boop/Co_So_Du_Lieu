@@ -1,6 +1,6 @@
-## Hệ Thống Quản Lý Nhập Hàng & Bán Hàng — Cửa Hàng Phụ Tùng Xe Máy Tài
+## Hệ Thống Quản Lý Cửa Hàng Phụ Tùng Xe Máy Tài
 
-> Đồ án môn **Quản Trị Cơ Sở Dữ Liệu** | Trường Đại Học Kinh Tế Đà Nẵng | 01/2025
+> Dự án môn **Quản Trị Cơ Sở Dữ Liệu** | Trường Đại Học Kinh Tế Đà Nẵng | 01/2025 - 05/2025 
 
 ---
 
