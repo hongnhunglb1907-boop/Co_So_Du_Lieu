@@ -96,4 +96,4 @@ Trọng tâm của dự án là việc chuyển đổi các quy trình nghiệp 
 - **Lớp:** 49K21.2 — Nhóm 49K212.08  
 - **Trường:** Đại Học Kinh Tế Đà Nẵng  
 - **Thời gian:** 01/2025  
-- **Địa điểm khảo sát:** Cửa hàng phụ tùng xe máy Tài, Thị trấn Di Lăng, Sơn Hà, Quảng Ngãi
+- **Địa điểm khảo sát:** Cửa hàng phụ tùng xe máy Tài, Thị trấn Di Lăng, Sơn Hà, Quảng Ngãi.
