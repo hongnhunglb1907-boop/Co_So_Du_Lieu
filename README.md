@@ -1,18 +1,18 @@
-## Hệ Thống Quản Lý Cửa Hàng Phụ Tùng Xe Máy Tài
+### Hệ Thống Quản Lý Cửa Hàng Phụ Tùng Xe Máy Tài
 
 > Dự án môn **Quản Trị Cơ Sở Dữ Liệu** | Trường Đại Học Kinh Tế Đà Nẵng | 01/2025 - 05/2025 
 
 ---
 
-## Giới thiệu
+### Giới thiệu
 
 Dự án xây dựng hệ thống cơ sở dữ liệu quản lý toàn bộ hoạt động kinh doanh của **Cửa hàng phụ tùng xe máy Tài** (Thị trấn Di Lăng, Sơn Hà, Quảng Ngãi) — một cửa hàng quy mô nhỏ đang gặp khó khăn trong việc theo dõi nhập xuất hàng, kiểm soát công nợ và quản lý giá bán.
 
-Nhóm thực hiện khảo sát thực tế tại cửa hàng, thu thập hóa đơn và chứng từ, sau đó thiết kế và triển khai hệ thống CSDL đầy đủ trên **SQL Server**.
+Trọng tâm của dự án là việc chuyển đổi các quy trình nghiệp vụ thủ công tại cửa hàng thành một Mô hình dữ liệu quan hệ (Relational Model) chuẩn hóa, đảm bảo tính nhất quán và tối ưu hiệu suất truy vấn.
 
 ---
 
-## Mục tiêu hệ thống
+### Mục tiêu hệ thống
 
 - Quản lý quy trình **nhập hàng** từ nhà cung cấp
 - Kiểm soát **tồn kho** và giá bán theo thời gian
@@ -22,29 +22,7 @@ Nhóm thực hiện khảo sát thực tế tại cửa hàng, thu thập hóa �
 
 ---
 
-## Cấu trúc dự án
-
-```
-motorcycle-parts-store-db
-├── 📁 design/
-│   ├── ERD_nhap_hang.png         # ERD hóa đơn nhập hàng
-│   ├── ERD_ban_hang.png          # ERD hóa đơn bán hàng
-│   ├── ERD_tich_hop.png          # ERD tích hợp toàn hệ thống
-│   └── so_do_quan_he.png         # Sơ đồ quan hệ (Relational Schema)
-├── 📁 sql/
-│   ├── 01_create_tables.sql      # Tạo cấu trúc bảng
-│   ├── 02_dump_data.sql          # Dữ liệu mẫu tự động sinh
-│   ├── 03_triggers.sql           # Trigger tự động (tồn kho, giá, công nợ)
-│   ├── 04_stored_procedures.sql  # Stored Procedures xử lý nghiệp vụ
-│   ├── 05_security.sql           # Phân quyền, tạo Login/Role
-│   ├── 06_backup.sql             # Cơ chế backup tự động
-│   └── 07_partition.sql          # Phân vùng dữ liệu (Partition)
-└── 📄 README.md
-```
-
----
-
-## Các bảng dữ liệu chính
+### Các bảng dữ liệu chính
 
 | Bảng | Mô tả |
 |---|---|
@@ -63,7 +41,7 @@ motorcycle-parts-store-db
 
 ---
 
-## Tính năng kỹ thuật
+### Tính năng kỹ thuật
 
 ### Trigger tự động
 - `spSLTonKho` — Tự động cập nhật số lượng tồn kho khi có giao dịch nhập/bán
@@ -89,7 +67,7 @@ motorcycle-parts-store-db
 
 ---
 
-## Công nghệ sử dụng
+### Công nghệ sử dụng
 
 | Công nghệ | Mục đích |
 |---|---|
@@ -100,7 +78,7 @@ motorcycle-parts-store-db
 
 ---
 
-## Thành viên nhóm
+### Thành viên nhóm
 
 | Họ tên | Vai trò |
 |---|---|
@@ -112,7 +90,7 @@ motorcycle-parts-store-db
 
 ---
 
-## Thông tin đồ án
+### Thông tin đồ án
 
 - **Môn học:** Quản Trị Cơ Sở Dữ Liệu  
 - **Lớp:** 49K21.2 — Nhóm 49K212.08  
